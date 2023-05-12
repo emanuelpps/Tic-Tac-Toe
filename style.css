@@ -1,0 +1,56 @@
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.play-box {
+  width: 500px;
+  margin: auto;
+}
+
+
+.button {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  min-height: 30px;
+  min-width: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+#button1 {
+  border-right: solid;
+  border-bottom: solid;
+}
+#button2 {
+  border-right: solid;
+  border-bottom: solid;
+}
+#button3 {
+  border-bottom: solid;
+}
+#button4 {
+  border-right: solid;
+  border-bottom: solid;
+}
+#button5 {
+  border-right: solid;
+  border-bottom: solid;
+}
+#button6 {
+  border-bottom: solid;
+}
+#button7 {
+  border-right: solid;
+}
+#button8 {
+  border-right: solid;
+}
+
+.reset-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
