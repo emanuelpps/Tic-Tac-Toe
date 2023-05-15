@@ -10,6 +10,8 @@ const buttons6 = document.getElementById("button6");
 const buttons7 = document.getElementById("button7");
 const buttons8 = document.getElementById("button8");
 const buttons9 = document.getElementById("button9");
+const playerX = document.getElementsByClassName("playerX");
+const playerO = document.getElementsByClassName("playerO");
 
 //jugadores
 let jugadorCirculo = 0;
@@ -237,7 +239,14 @@ const Tie = (buttons) => {
 
 const reset = () => {
     console.log('reset');
+    title.innerHTML = "TIC TAC TOE"
       for (const button of buttons) {
         button.innerHTML= '';
+        button.value = '';
+        button.disabled = false;
+        button.style.background = "white";
   }
+  circulo = false;
+  cruz = false;
+  buttonsList = 0
 }
