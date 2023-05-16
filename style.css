@@ -1,3 +1,4 @@
+
 .title {
   display: flex;
   justify-content: center;
@@ -21,14 +22,7 @@
   font-weight: 700;
 }
 
-@media screen and (max-width: 576px){
-  .button{
-    min-height: 15px;
-    max-width: 15px;
-    height: 5px;
-    width: 5px;
-  }
-}
+
 
 #button1 {
   border-right: solid;
