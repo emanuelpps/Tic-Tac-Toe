@@ -17,8 +17,9 @@ const playerO = document.getElementsByClassName("playerO");
 let jugadorCirculo = 0;
 let jugadorCruz = 0;
 
-const playerCirculo = document.createElement("p");
-const playerCruz = document.createElement("p");
+document.h2.innerHTML = playerX.innerHTML;
+
+
 
 //ciculo o cruz booleano true o false
 let circulo = false;
