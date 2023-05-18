@@ -34,13 +34,12 @@ body {
   font-weight: 700;
 }
 
-@media screen and(max-width: 576px) {
-  body {
-    width: 350px;
+@media only screen and (max-width: 576px) {
+  .play-box {
+    max-width: 380px;
   }
   .button {
-    height: 2px;
-    width: 2px;
+    width: auto;
   }
 }
 
