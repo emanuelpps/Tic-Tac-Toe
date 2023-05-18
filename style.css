@@ -1,9 +1,13 @@
+body{
+  overflow: hidden;
+  }
 
 .title {
   display: flex;
   justify-content: center;
   margin-top: 50px;
 }
+
 
 .play-box {
   width: 500px;
@@ -22,6 +26,16 @@
   font-weight: 700;
 }
 
+
+@media screen and(max-width: 576px){
+  body{
+    width: 350px;
+  }
+  .button{
+    height: 2px;
+    width: 2px;
+  }
+}
 
 
 #button1 {
