@@ -35,13 +35,22 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
+  .body{
+    height: 100vh;
+  }
+
+  .title{
+    margin-bottom: 15px;
+  }
+  
   .play-box {
-    max-width: 380px;
+    max-width: 360px;
   }
   .button {
     width: auto;
     height: auto;
   }
+
 }
 
 #button1 {
