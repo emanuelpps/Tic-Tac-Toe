@@ -8,6 +8,11 @@ body {
   overflow: hidden;
 }
 
+h2{
+  color: black;
+  text-decoration: solid;
+}
+
 .title {
   display: flex;
   justify-content: center;
