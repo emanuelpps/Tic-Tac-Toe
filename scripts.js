@@ -66,6 +66,7 @@ const victoryRulesX = () => {
     buttons1.style.background = "#007005";
     buttons2.style.background = "#007005";
     buttons3.style.background = "#007005";
+    title.style.background = "#007005";
     VictoryX();
   } else if (
     buttons4.value == "X" &&
@@ -75,6 +76,7 @@ const victoryRulesX = () => {
     buttons4.style.background = "#007005";
     buttons5.style.background = "#007005";
     buttons6.style.background = "#007005";
+    title.style.background = "#007005";
     VictoryX();
   } else if (
     buttons7.value == "X" &&
@@ -84,6 +86,7 @@ const victoryRulesX = () => {
     buttons7.style.background = "#007005";
     buttons8.style.background = "#007005";
     buttons9.style.background = "#007005";
+    title.style.background = "#007005";
     VictoryX();
   } else if (
     buttons1.value == "X" &&
@@ -93,6 +96,7 @@ const victoryRulesX = () => {
     buttons1.style.background = "#007005";
     buttons4.style.background = "#007005";
     buttons7.style.background = "#007005";
+    title.style.background = "#007005";
     VictoryX();
   } else if (
     buttons2.value == "X" &&
@@ -102,6 +106,7 @@ const victoryRulesX = () => {
     buttons2.style.background = "#007005";
     buttons5.style.background = "#007005";
     buttons8.style.background = "#007005";
+    title.style.background = "#007005";
     VictoryX();
   } else if (
     buttons3.value == "X" &&
@@ -111,6 +116,7 @@ const victoryRulesX = () => {
     buttons3.style.background = "#007005";
     buttons6.style.background = "#007005";
     buttons9.style.background = "#007005";
+    title.style.background = "#007005";
     VictoryX();
   } else if (
     buttons1.value == "X" &&
@@ -120,6 +126,7 @@ const victoryRulesX = () => {
     buttons1.style.background = "#007005";
     buttons5.style.background = "#007005";
     buttons9.style.background = "#007005";
+    title.style.background = "#007005";
     VictoryX();
   } else if (
     buttons3.value == "X" &&
@@ -129,6 +136,7 @@ const victoryRulesX = () => {
     buttons3.style.background = "#007005";
     buttons5.style.background = "#007005";
     buttons7.style.background = "#007005";
+    title.style.background = "#007005";
     VictoryX();
   } else {
     Tie();
@@ -140,6 +148,7 @@ const victoryRulesO = () => {
     buttons1.style.background = "#007005";
     buttons2.style.background = "#007005";
     buttons3.style.background = "#007005";
+    title.style.background = "#007005";
     VictoryO();
   } else if (
     buttons4.value == "O" &&
@@ -149,6 +158,7 @@ const victoryRulesO = () => {
     buttons4.style.background = "#007005";
     buttons5.style.background = "#007005";
     buttons6.style.background = "#007005";
+    title.style.background = "#007005";
     VictoryO();
   } else if (
     buttons7.value == "O" &&
@@ -158,6 +168,7 @@ const victoryRulesO = () => {
     buttons7.style.background = "#007005";
     buttons8.style.background = "#007005";
     buttons9.style.background = "#007005";
+    title.style.background = "#007005";
     VictoryO();
   } else if (
     buttons1.value == "O" &&
@@ -167,6 +178,7 @@ const victoryRulesO = () => {
     buttons1.style.background = "#007005";
     buttons4.style.background = "#007005";
     buttons7.style.background = "#007005";
+    title.style.background = "#007005";
     VictoryO();
   } else if (
     buttons2.value == "O" &&
@@ -176,6 +188,7 @@ const victoryRulesO = () => {
     buttons2.style.background = "#007005";
     buttons5.style.background = "#007005";
     buttons8.style.background = "#007005";
+    title.style.background = "#007005";
     VictoryO();
   } else if (
     buttons3.value == "O" &&
@@ -185,6 +198,7 @@ const victoryRulesO = () => {
     buttons3.style.background = "#007005";
     buttons6.style.background = "#007005";
     buttons9.style.background = "#007005";
+    title.style.background = "#007005";
     VictoryO();
   } else if (
     buttons1.value == "O" &&
@@ -194,6 +208,7 @@ const victoryRulesO = () => {
     buttons1.style.background = "#007005";
     buttons5.style.background = "#007005";
     buttons9.style.background = "#007005";
+    title.style.background = "#007005";
     VictoryO();
   } else if (
     buttons3.value == "O" &&
@@ -203,6 +218,7 @@ const victoryRulesO = () => {
     buttons3.style.background = "#007005";
     buttons5.style.background = "#007005";
     buttons7.style.background = "#007005";
+    title.style.background = "#007005";
     VictoryO();
   } else {
     Tie();
@@ -229,7 +245,8 @@ const VictoryO = () => {
 const Tie = (buttons) => {
   if (buttonsList === 9) {
     console.log('Empate');
-    title.innerHTML = "EMPATE!"
+    title.innerHTML = "EMPATE!";
+    title.style.background = "rgb(211, 106, 98)";
     // mostrar mensaje de empate o hacer otra acción aquí
   }
   }
@@ -244,6 +261,7 @@ const reset = () => {
         button.value = '';
         button.disabled = false;
         button.style.background = "white";
+        title.style.background = "bisque"
   }
   circulo = false;
   cruz = false;
